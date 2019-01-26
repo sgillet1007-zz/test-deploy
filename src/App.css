@@ -73,8 +73,9 @@ body {
   font-family: 'Limelight', 'cursive';
 }
 
-#band_name_container:hover {
+#band_name:hover {
   text-shadow: 1px 1px rgba(27, 27, 27, 0.8);
+  color: #fff9c4;
 }
 
 .decoration{
