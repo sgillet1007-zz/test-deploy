@@ -10,6 +10,8 @@ import pause from '../images/icons/pause.png'
 import forward from '../images/icons/forward.png'
 import rewind from '../images/icons/rewind.png'
 
+import tocame from '../tracks/tocame.mp3'
+
 export default class PageHeader extends Component {
     constructor(props) {
         super(props)
@@ -88,7 +90,11 @@ const tracks = [
     },
     {
         src: 'http://nebula.wsimg.com/ebddcff358e271a11c11063583e84812?AccessKeyId=04B75B702CB34F098443&disposition=0&alloworigin=1&type=audio',
-        title: 'She\'s Coming Back'
+        title: 'Rufus'
+    },
+    {
+        src: tocame,
+        title: 'Tocame'
     }
 ]
 
@@ -99,7 +105,7 @@ const rearrangePlayer = [
       innerComponents: [
           {
               type: 'name',
-              style: {width: "100px"}
+              style: {width: "100px", overflow: 'scroll'}
            },
           { 
               type: 'rewind',
