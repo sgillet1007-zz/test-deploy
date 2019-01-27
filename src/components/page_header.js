@@ -10,6 +10,11 @@ import pause from '../images/icons/pause.png'
 import forward from '../images/icons/forward.png'
 import rewind from '../images/icons/rewind.png'
 
+import shes_coming_back from '../tracks/shes_coming_back.mp3'
+import inspector_clousso from '../tracks/inspector_clousso.mp3'
+import satan from '../tracks/satan.mp3'
+import in_the_city from '../tracks/in_the_city.mp3'
+import rufus from '../tracks/rufus.mp3'
 import tocame from '../tracks/tocame.mp3'
 
 export default class PageHeader extends Component {
@@ -85,11 +90,23 @@ export default class PageHeader extends Component {
 
 const tracks = [
     {
-        src: 'http://nebula.wsimg.com/788d768a30ec760f31e1cdc18418d0d8?AccessKeyId=04B75B702CB34F098443&disposition=0&alloworigin=1&type=audio',
+        src: shes_coming_back,
+        title: 'She\'s Coming Back'
+    },
+    {
+        src: inspector_clousso,
+        title: 'Inspector Clousso'
+    },
+    {
+        src: satan,
+        title: 'Satan Inc.'
+    },
+    {
+        src: in_the_city,
         title: 'In The City'
     },
     {
-        src: 'http://nebula.wsimg.com/ebddcff358e271a11c11063583e84812?AccessKeyId=04B75B702CB34F098443&disposition=0&alloworigin=1&type=audio',
+        src: rufus,
         title: 'Rufus'
     },
     {
