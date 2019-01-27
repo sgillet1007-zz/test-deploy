@@ -1,35 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 body {
   position: relative;
   width: 100vw;
@@ -54,7 +22,7 @@ body {
 }
 
 /* PAGE HEADER AND NAV TRAY STYLES */
-#band_name_container {
+#header_container {
   position: fixed;
   height: 60px;
   line-height: 60px;
@@ -68,19 +36,24 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+#band_name_container {
+  display: inline-flex;
+  justify-content: center;
+}
+
 #band_name{
   font-size: 1.9rem;
   font-family: 'Limelight', 'cursive';
 }
 
+.band_name_word {
+  display: inline;
+  margin: 0 5px;
+}
+
 #band_name:hover {
   text-shadow: 1px 1px rgba(27, 27, 27, 0.8);
   color: #fff9c4;
-}
-
-.decoration{
-  display: inline-block;
-  width: 10vw;
 }
 
 #nav_tray {
@@ -127,13 +100,30 @@ a {
   color: #fff9c4;
   transform: scale(1.1);
 }
+/* AUDIO PLAYER STYLES */
+#audio_container {
+  position: absolute;
+  right: 40px;
+  width: 170px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.audio-player-volume{
+  display:none;
+}
+
+#play:hover, #rewind:hover, #forward:hover {
+  transform: scale(1.1)!important;
+}
 
 /* HERO IMAGE STYLES */
 .hero-image {
   width: 100vw;
   max-width: 1200px;
   opacity: 0.8;
-  border: 2px #1b1b1b solid;
+  border: 1px black solid;
+  margin: 0;
 }
 
 /* SECTION DIVIDER HEADING STYLES */
@@ -141,6 +131,7 @@ a {
   height: 40px;
   line-height: 40px;
   font-size: 1.4rem;
+  margin-top: -10px;
   margin-bottom: 15px;
   background-color: #424242;
   font-family: 'Limelight', cursive;
@@ -165,20 +156,6 @@ a {
 .bio-text {
   width: 60vw;
   margin: 0 auto;
-}
-
-/* AUDIO PLAYER STYLES */
-.audio-player {
-  margin: 0 auto;
-  width: 60vw !important
-}
-
-.audio-player-volume{
-  display:none;
-}
-
-#play:hover, #rewind:hover, #forward:hover {
-  transform: scale(1.1)!important;
 }
 
 /* PHOTOS SECTION STYLES */
@@ -209,7 +186,6 @@ a {
 
 .album_cover:hover {
   box-shadow: 1px 1px 1px 1px #fff9c4;
-
 }
 
 /* CONTACT PAGE STYLES */
@@ -280,34 +256,33 @@ form[name="mailing-list"] {
 
 @import url('https://fonts.googleapis.com/css?family=Limelight|Oswald:300');
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 800px) {
   /* add mobile styles here */
-  #band_name_container{
+  #header_container{
       height: 50px;
-      line-height: 45px;
+      line-height: 50px;
   }
-  .decoration{
-      display: none;
+  #band_name {
+    margin-top: 0;
+    padding-top: 0;
   }
   #band_name{
       font-size: 1.2rem;
-    }
+  }
+  .audio-player-track-name {
+    display: none;
+  }
   .divider-heading {
-      height: 40px;
-      line-height: 40px;
       font-size: 1rem;
   }
   #toggle_nav_tray {
       padding-left: 5px;
       line-height: 45px;
   }
-
   #nav_tray {
       top: 50px;
   }
-
   iframe {
       width: 95vw;
   }
-
 }

@@ -7,7 +7,6 @@ import PageHeader from './components/page_header'
 import expand_menu from './images/icons/expand_menu.png'
 import expand_less from './images/icons/expand_less.png'
 import hero from "./images/hero.jpg"
-import TrackPlayer from './components/track_player'
 import UpcomingShows from './components/show_list'
 import BandBios from './components/band_bios'
 import DividerHeading from './components/divider_heading'
@@ -99,10 +98,7 @@ class App extends Component {
 
 const Home = () => (
     <div>
-        <div className='hero-container'>
-            <img className='hero-image' src={hero} alt="" />
-        </div>
-        <TrackPlayer />
+        <img className='hero-image' src={hero} alt="" />
         <UpcomingShows />
         <BandBios />
     </div>
