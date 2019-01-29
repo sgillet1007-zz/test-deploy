@@ -129,6 +129,9 @@ const Contact = () => (
                 data-netlify-honeypot="bot-field"
                 netlify
             >
+            <p style={{"visibility": "hidden"}}>
+                <label>If you are not a robot do not fill out this field<input type="text" name="bot-field" /></label>   
+            </p>
             <p>
                 <label><input type="text" name="name" placeholder="Your Name" required /></label>   
             </p>
@@ -152,8 +155,8 @@ const Contact = () => (
                 data-netlify-honeypot="bot-field"
                 netlify
             >
-            <input type="email" name="email" placeholder="your email..." />
-            <button className="btn" type="submit">Join Mailing List</button>
+                <input type="email" name="email" placeholder="your email..." />
+                <button className="btn" type="submit">Join Mailing List</button>
             </form>
         </div>
     </div>
