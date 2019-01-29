@@ -122,39 +122,19 @@ const Contact = () => (
         <div className='layoutTopPadding'></div>
         <DividerHeading headerText={'Booking Request'} />
         <div id="booking-form">
-            <form 
-                name="booking"
-                method="post"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                netlify
-            >
+            <form name="booking" method="post" data-netlify="true" data-netlify-honeypot="bot-field" netlify >
             <p style={{"visibility": "hidden"}}>
                 <label>If you are not a robot do not fill out this field<input type="text" name="bot-field" /></label>   
             </p>
-            <p>
-                <label><input type="text" name="name" placeholder="Your Name" required /></label>   
-            </p>
-            <p>
-                <label><input type="email" name="email" placeholder="Your Email" required /></label>
-            </p>
-            <p>
-                <label><textarea name="message" placeholder="Details of your request" required></textarea></label>
-            </p>
-            <p>
+                <p><label><input type="text" name="name" placeholder="Your Name" required /></label></p>
+                <p><label><input type="email" name="email" placeholder="Your Email" required /></label></p>
+                <p><label><textarea name="message" placeholder="Details of your request" required></textarea></label></p>
                 <button className="btn" type="submit">Send Booking Request</button>
-            </p>
             </form>
         </div>
         <DividerHeading headerText={'Mailing List'} />
         <div id="mailing-list-container">
-            <form
-                name="mailing-list"
-                method="post"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                netlify
-            >
+            <form name="mailing-list" method="post" data-netlify="true" data-netlify-honeypot="bot-field" netlify >
                 <input type="email" name="email" placeholder="your email..." />
                 <button className="btn" type="submit">Join Mailing List</button>
             </form>
