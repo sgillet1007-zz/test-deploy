@@ -127,6 +127,7 @@ const Contact = () => (
                 method="post"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
+                netlify
             >
             <p>
                 <label><input type="text" name="name" placeholder="Your Name" required /></label>   
@@ -149,6 +150,7 @@ const Contact = () => (
                 method="post"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
+                netlify
             >
             <input type="email" name="email" placeholder="your email..." />
             <button className="btn" type="submit">Join Mailing List</button>
