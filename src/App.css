@@ -161,17 +161,17 @@ a {
 /* PHOTOS SECTION STYLES */
 #photos-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
-  grid-gap: 15px;
-  align-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 400px));
+  grid-gap: 5vw;
   margin-left: 40px;
   margin-top: 80px;
+  justify-content: center;
 }
 
 .photos-image {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  max-width: 70%;
+  max-width: 100%;
 }
 
 /* MEDIA PAGE STYLES */

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css'
 import PageFooter from './components/page_footer'
 import PageHeader from './components/page_header'
+import Photos from './components/photos'
 
 import expand_menu from './images/icons/expand_menu.png'
 import expand_less from './images/icons/expand_less.png'
@@ -113,6 +114,8 @@ const Media = () => (
                 <ul id='album_list'>
                     {albumsArray.map(a => albumItem(a))}
                 </ul>
+            <DividerHeading headerText={'Photos'} />
+            <Photos />
     </div>
 )
 
@@ -122,10 +125,8 @@ const Contact = () => (
         <div className='layoutTopPadding'></div>
         <DividerHeading headerText={'Booking Request'} />
         <div id="booking-form">
-            <form name="booking" method="post" data-netlify="true" data-netlify-honeypot="bot-field" netlify >
-            <p style={{"visibility": "hidden"}}>
-                <label>If you are not a robot do not fill out this field<input type="text" name="bot-field" /></label>   
-            </p>
+            <form name="booking" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" netlify >
+                <p style={{"visibility": "hidden"}}><label>If you are not a robot do not fill out this field<input type="text" name="bot-field" /></label></p>
                 <p><label><input type="text" name="name" placeholder="Your Name" required /></label></p>
                 <p><label><input type="email" name="email" placeholder="Your Email" required /></label></p>
                 <p><label><textarea name="message" placeholder="Details of your request" required></textarea></label></p>
@@ -134,7 +135,7 @@ const Contact = () => (
         </div>
         <DividerHeading headerText={'Mailing List'} />
         <div id="mailing-list-container">
-            <form name="mailing-list" method="post" data-netlify="true" data-netlify-honeypot="bot-field" netlify >
+            <form name="mailing-list" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" netlify >
                 <input type="email" name="email" placeholder="your email..." />
                 <button className="btn" type="submit">Join Mailing List</button>
             </form>
