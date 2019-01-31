@@ -18,7 +18,7 @@ body {
 }
 
 .layoutTopPadding{
-  padding-top: 75px;
+  padding-top: 85px;
 }
 
 /* PAGE HEADER AND NAV TRAY STYLES */
@@ -269,7 +269,14 @@ form[name="mailing-list"] {
   #band_name{
       font-size: 1.2rem;
   }
-  .audio-player-track-name {
+  .audio-container{
+    height: 45px;
+    line-height: 45px;
+  }
+  #play{
+    float: right;
+  }
+  .audio-player-track-name, #rewind-icon, #forward-icon {
     display: none;
   }
   .divider-heading {

@@ -90,6 +90,10 @@ export default class PageHeader extends Component {
 
 const tracks = [
     {
+        src: satan,
+        title: 'Satan Inc.'
+    },
+    {
         src: shes_coming_back,
         title: 'She\'s Coming Back'
     },
@@ -98,16 +102,12 @@ const tracks = [
         title: 'Inspector Clousso'
     },
     {
-        src: satan,
-        title: 'Satan Inc.'
+        src: rufus,
+        title: 'Rufus'
     },
     {
         src: in_the_city,
         title: 'In The City'
-    },
-    {
-        src: rufus,
-        title: 'Rufus'
     },
     {
         src: tocame,
@@ -136,10 +136,6 @@ const rearrangePlayer = [
               type: 'forward',
               style: {width: "30px"}
            },
-        //   { 
-        //       type: 'time',
-        //       style: {width: "100px"}
-        //    }
       ]
   }
 ]

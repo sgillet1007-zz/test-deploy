@@ -6,9 +6,9 @@ export default () => {
         <div>
             <DividerHeading headerText={'Upcoming Shows'} />
             <div>
-                <strong>Private Event</strong> Denver, CO 
+                <strong>Boulder Film Festival</strong> Boulder, CO 
                 <div>
-                    Saturday January, 26th @ 8pm
+                    Saturday March, 2nd @ 9pm
                 </div>
             </div>
         </div>
