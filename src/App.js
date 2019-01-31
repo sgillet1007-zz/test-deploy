@@ -108,12 +108,12 @@ const Home = () => (
 const Media = () => (
     <div>
         <div className='layoutTopPadding'></div>
-            <DividerHeading headerText={'Video'} />
-                <iframe title="love_is_dumb" id="love_is_dumb" width="420" height="315" src="https://www.youtube.com/embed/H3rwkCEij88" frameBorder="0" allow={"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"} allowFullScreen></iframe>
             <DividerHeading headerText={'Albums'} />
                 <ul id='album_list'>
                     {albumsArray.map(a => albumItem(a))}
                 </ul>
+            <DividerHeading headerText={'Video'} />
+                <iframe title="love_is_dumb" id="love_is_dumb" width="420" height="315" src="https://www.youtube.com/embed/H3rwkCEij88" frameBorder="0" allow={"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"} allowFullScreen></iframe>
             <DividerHeading headerText={'Photos'} />
             <Photos />
     </div>

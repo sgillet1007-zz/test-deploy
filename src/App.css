@@ -185,7 +185,7 @@ a {
 }
 
 .album_cover:hover {
-  box-shadow: 1px 1px 1px 1px #fff9c4;
+  box-shadow: 1px 1px 1px 1px rgba(255, 249, 196, 0.2);
 }
 
 /* CONTACT PAGE STYLES */
