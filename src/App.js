@@ -125,7 +125,7 @@ const Contact = () => (
         <div className='layoutTopPadding'></div>
         <DividerHeading headerText={'Booking Request'} />
         <div id="booking-form">
-            <form name="booking" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+            <form name="booking" method="post">
                 <input type="hidden" name="form-name" value="booking" />
                 <p><label><input type="text" name="name" placeholder="Your Name" required /></label></p>
                 <p><label><input type="email" name="email" placeholder="Your Email" required /></label></p>
