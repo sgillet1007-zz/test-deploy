@@ -144,6 +144,14 @@ a {
   background-color: #424242;
 }
 
+#email {
+  margin-left: 20px;
+}
+
+#footer-logo {
+  margin-top: 10px;
+}
+
 /* BIOGRAPHY STYLES */
 .headshot {
   border: 3px #fffff7 solid;
@@ -192,8 +200,8 @@ a {
 }
 
 #contact-form {
-  height: 50vh;
-  min-height: 250px;
+  height: 40vh;
+  min-height: 350px;
 }
 
 #contact-form input, #contact-form textarea {

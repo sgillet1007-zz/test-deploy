@@ -15,12 +15,14 @@ import missed_connections from './images/albums/missed_connections.jpg'
 import carry_on from './images/albums/carry_on.jpg'
 import tourist_information from './images/albums/tourist_information.jpg'
 import postcards from './images/albums/postcards.jpg'
+import fb from './images/social/fb.jpg'
+import ig from './images/social/ig.jpg'
 
 const albumItem = props => {
     const {title, year, image_url, cdbaby_url} = props;
     return ( <li key={year}>
         <h4>{`${title} - ${year}`}</h4>
-        <a href={cdbaby_url} target='_blank' rel="noopener noreferrer" >
+        <a href={cdbaby_url} target='_blank' rel="noopener noreferrer">
             <img className='album_cover' src={image_url} alt="album_cover" />
         </a>
     </li>
@@ -129,9 +131,23 @@ const Contact = () => (
                 <input type="hidden" name="form-name" value="booking" />
                 <p><label><input type="text" name="name" placeholder="Your Name" required /></label></p>
                 <p><label><input type="email" name="email" placeholder="Your Email" required /></label></p>
-                <p><label><textarea name="message" placeholder="Details of your request" required></textarea></label></p>
+                <p><label><textarea name="message" placeholder="Your message to the Tourists..." required></textarea></label></p>
                 <button className="btn" type="submit">Send Message</button>
             </form>
+        </div>
+        <DividerHeading headerText={'Social'} />
+        <div>
+            <h3>Like us on Facebook!</h3>
+            <a href="https://www.facebook.com/theconstanttourists/" target='_blank' rel="noopener noreferrer">
+                <img src={fb} height="70px" alt="facebook" />
+            </a>
+        </div>
+        <br />
+        <div>
+            <h3>Follow us on Instagram!</h3>
+            <a href="https://www.instagram.com/theconstanttourists/" target='_blank' rel="noopener noreferrer">
+                <img src={ig} height="70px" alt="facebook" />
+            </a>
         </div>
     </div>
 )
