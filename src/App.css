@@ -292,7 +292,7 @@ form[name="mailing-list"] {
 
 @media only screen and (max-width: 500px){
   #audio_container{
-    /* display: none; */
+    display: none;
   }
 }
 
