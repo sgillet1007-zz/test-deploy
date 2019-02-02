@@ -161,7 +161,7 @@ a {
 /* PHOTOS SECTION STYLES */
 #photos-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 400px));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 350px));
   grid-gap: 5vw;
   margin-left: 40px;
   margin-top: 80px;

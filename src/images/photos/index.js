@@ -3,7 +3,7 @@ import photo_2 from "./photo2.jpeg"
 import photo_3 from "./photo3.jpeg"
 import photo_4 from "./photo4.jpeg"
 import photo_5 from "./photo5.jpeg"
-import photo_6 from "./photo6.jpeg"
+// import photo_6 from "./photo6.jpeg"
 import photo_7 from "./photo7.jpeg"
 import photo_8 from "./photo8.jpeg"
 import photo_9 from "./photo9.jpeg"
@@ -30,7 +30,7 @@ export default [
     photo_3,
     photo_4,
     photo_5,
-    photo_6,
+    // photo_6,
     photo_7,
     photo_8,
     photo_9,
