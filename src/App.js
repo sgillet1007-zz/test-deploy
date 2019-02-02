@@ -139,14 +139,14 @@ const Contact = () => (
         <div>
             <h3>Like us on Facebook!</h3>
             <a href="https://www.facebook.com/theconstanttourists/" target='_blank' rel="noopener noreferrer">
-                <img src={fb} height="70px" alt="facebook" />
+                <img className="social-link" src={fb} height="70px" alt="facebook" />
             </a>
         </div>
         <br />
         <div>
             <h3>Follow us on Instagram!</h3>
             <a href="https://www.instagram.com/theconstanttourists/" target='_blank' rel="noopener noreferrer">
-                <img src={ig} height="70px" alt="facebook" />
+                <img className="social-link" src={ig} height="70px" alt="facebook" />
             </a>
         </div>
     </div>
