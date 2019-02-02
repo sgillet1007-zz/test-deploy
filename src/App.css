@@ -140,9 +140,7 @@ a {
 /* PAGE FOOTER STYLES */
 #page-footer {
   margin-top: 20px;
-  height: 80px;
-  line-height: 80px;
-  padding: 10px;
+  padding: 25px;
   background-color: #424242;
 }
 
@@ -189,12 +187,16 @@ a {
 }
 
 /* CONTACT PAGE STYLES */
-#booking-form {
+#contact-container {
+  min-height: 90vh;
+}
+
+#contact-form {
   height: 50vh;
   min-height: 250px;
 }
 
-#booking-form input, #booking-form textarea {
+#contact-form input, #contact-form textarea {
   width: 50vw;   
 }
 

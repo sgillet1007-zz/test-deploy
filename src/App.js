@@ -18,7 +18,7 @@ import postcards from './images/albums/postcards.jpg'
 
 const albumItem = props => {
     const {title, year, image_url, cdbaby_url} = props;
-    return ( <li>
+    return ( <li key={year}>
         <h4>{`${title} - ${year}`}</h4>
         <a href={cdbaby_url} target='_blank' rel="noopener noreferrer" >
             <img className='album_cover' src={image_url} alt="album_cover" />
@@ -110,7 +110,7 @@ const Media = () => (
         <div className='layoutTopPadding'></div>
             <DividerHeading headerText={'Albums'} />
                 <ul id='album_list'>
-                    {albumsArray.map(a => albumItem(a))}
+                    {albumsArray.map((a) => albumItem(a))}
                 </ul>
             <DividerHeading headerText={'Video'} />
                 <iframe title="love_is_dumb" id="love_is_dumb" width="420" height="315" src="https://www.youtube.com/embed/H3rwkCEij88" frameBorder="0" allow={"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"} allowFullScreen></iframe>
@@ -121,16 +121,16 @@ const Media = () => (
 
 
 const Contact = () => (
-    <div>
+    <div id="contact-container">
         <div className='layoutTopPadding'></div>
-        <DividerHeading headerText={'Booking Request'} />
-        <div id="booking-form">
+        <DividerHeading headerText={'Contact Form'} />
+        <div id="contact-form">
             <form name="booking" method="post">
                 <input type="hidden" name="form-name" value="booking" />
                 <p><label><input type="text" name="name" placeholder="Your Name" required /></label></p>
                 <p><label><input type="email" name="email" placeholder="Your Email" required /></label></p>
                 <p><label><textarea name="message" placeholder="Details of your request" required></textarea></label></p>
-                <button className="btn" type="submit">Send Booking Request</button>
+                <button className="btn" type="submit">Send Message</button>
             </form>
         </div>
     </div>
