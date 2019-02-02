@@ -293,3 +293,10 @@ form[name="mailing-list"] {
       width: 95vw;
   }
 }
+
+@media only screen and (max-width: 500px){
+  #audio_container{
+    display: none;
+  }
+}
+
