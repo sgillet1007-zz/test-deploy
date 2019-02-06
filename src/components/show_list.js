@@ -1,19 +1,44 @@
 import React from 'react'
 import DividerHeading from '../components/divider_heading'
 
+const shows = [
+    {
+        when: 'Saturday, March 2nd 9:00pm-12:30am',
+        venue: 'License #1 at the Hotel Boulderado (BIFF)',
+        venue_url: 'https://biff1.com/music/',
+        address: '2115 13th Street, Boulder, CO 80302',
+        address_url: 'https://goo.gl/maps/uAV4ShiL9nF2'
+    }, 
+    {
+        when: 'Sunday, March 17th 11:00am-1:00pm',
+        venue: 'Clancy\'s Irish Pub',
+        venue_url: 'https://iloveclancys.com/',
+        address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
+        address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
+    }
+]
+
+const Show = props => {
+    const {when, venue, venue_url, address_url, address} = props.data
+    return (
+    <div className="show-item">
+    <strong className="show-title-text">{`${when}`}</strong>
+    <div>
+        <a className="show-hoverable" href={venue_url} rel="noopener noreferrer" target="_blank">{venue}</a>
+    </div>
+    <div>
+        <a className="show-hoverable" href={address_url} rel="noopener noreferrer" target="_blank">{address}</a>
+    </div>
+</div>
+)}
+
+const renderShowList = () => shows.map((s, i) => <Show data={s} key={i} />)
+
 export default () => {
     return (
         <div>
             <DividerHeading headerText={'Upcoming Shows'} />
-            <div>
-                <strong>Saturday, March 2 9:00pm-12:30am</strong>
-                <div>
-                    <a href="https://biff1.com/music/" rel="noopener noreferrer" target="_blank">License #1 at the Hotel Boulderado (BIFF)</a>
-                </div>
-                <div>
-                    <a href="https://goo.gl/maps/uAV4ShiL9nF2" rel="noopener noreferrer" target="_blank">2115 13th Street, Boulder, CO 80302</a>
-                </div>
-            </div>
+            {renderShowList()}
         </div>
     )
 }

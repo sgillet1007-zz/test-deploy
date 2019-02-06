@@ -152,6 +152,22 @@ a {
   margin-top: 10px;
 }
 
+/* SHOW LIST STYLES */
+
+.show-item{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.show-title-text{
+  font-size: 1.2em;
+}
+
+.show-hoverable:hover{
+  color: #fff9c4;
+  /* transform: scale(1.1); */
+}
+
 /* BIOGRAPHY STYLES */
 .headshot {
   border: 3px #fffff7 solid;
