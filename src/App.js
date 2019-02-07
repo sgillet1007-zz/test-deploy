@@ -127,7 +127,7 @@ const Contact = () => (
         <div className='layoutTopPadding'></div>
         <DividerHeading headerText={'Contact Form'} />
         <div id="contact-form">
-            <form name="booking" method="post">
+            <form name="booking" action="/contact/" method="post">
                 <input type="hidden" name="form-name" value="booking" />
                 <p><label><input type="text" name="name" placeholder="Your Name" required /></label></p>
                 <p><label><input type="email" name="email" placeholder="Your Email" required /></label></p>
