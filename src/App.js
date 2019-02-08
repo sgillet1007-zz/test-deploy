@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css'
+import ScrollToTop from './components/scroll_to_top'
 import PageFooter from './components/page_footer'
 import PageHeader from './components/page_header'
 import Photos from './components/photos'
@@ -86,13 +87,16 @@ class App extends Component {
         return (
         <div className="App">
             <Router>
-                <div id="layout-container">
-                    <PageHeader />
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/media" component={Media} />
-                        <Route exact path="/contact" component={Contact} />
-                    <PageFooter />
-                </div>
+                <ScrollToTop>
+                    <div id="layout-container">
+                        <PageHeader />
+                            <Route exact path="/" component={Home} />
+                            <Route exact path="/media" component={Media} />
+                            <Route exact path="/contact" component={Contact} />
+                            <Route exact path="/music" component={Music} />
+                        <PageFooter />
+                    </div>
+                </ScrollToTop>
             </Router>
         </div>
         );
@@ -107,17 +111,47 @@ const Home = () => (
     </div>
 )
 
+const Music = () => (
+    <div>
+        <div className='layoutTopPadding'></div>
+        <DividerHeading headerText={'Albums'} />
+            <ul id='album_list'>
+                {albumsArray.map(a => albumItem(a))}
+            </ul>
+        <DividerHeading headerText={'Video'} />
+            <iframe 
+                title="love_is_dumb"
+                id="love_is_dumb"
+                width="420"
+                height="315"
+                src="https://www.youtube.com/embed/H3rwkCEij88"
+                frameBorder="0"
+                allow={"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"}
+                allowFullScreen
+            />
+        <UpcomingShows />
+    </div>
+)
+
 const Media = () => (
     <div>
         <div className='layoutTopPadding'></div>
-            <DividerHeading headerText={'Albums'} />
-                <ul id='album_list'>
-                    {albumsArray.map(a => albumItem(a))}
-                </ul>
-            <DividerHeading headerText={'Video'} />
-                <iframe title="love_is_dumb" id="love_is_dumb" width="420" height="315" src="https://www.youtube.com/embed/H3rwkCEij88" frameBorder="0" allow={"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"} allowFullScreen></iframe>
             <DividerHeading headerText={'Photos'} />
             <Photos />
+            <DividerHeading headerText={'Social'} />
+            <div>
+                <h3>Like us on Facebook!</h3>
+                <a href="https://www.facebook.com/theconstanttourists/" target='_blank' rel="noopener noreferrer">
+                    <img className="social-link" src={fb} height="70px" alt="facebook" />
+                </a>
+            </div>
+            <br />
+            <div>
+                <h3>Follow us on Instagram!</h3>
+                <a href="https://www.instagram.com/theconstanttourists/" target='_blank' rel="noopener noreferrer">
+                    <img className="social-link" src={ig} height="70px" alt="facebook" />
+                </a>
+            </div>
     </div>
 )
 
@@ -127,27 +161,13 @@ const Contact = () => (
         <div className='layoutTopPadding'></div>
         <DividerHeading headerText={'Contact Form'} />
         <div id="contact-form">
-            <form name="booking" action="/contact/" method="post">
+            <form name="booking" action="/" method="post">
                 <input type="hidden" name="form-name" value="booking" />
                 <p><label><input type="text" name="name" placeholder="Your Name" required /></label></p>
                 <p><label><input type="email" name="email" placeholder="Your Email" required /></label></p>
                 <p><label><textarea name="message" placeholder="Your message to the Tourists..." required></textarea></label></p>
                 <button className="btn" type="submit">Send Message</button>
             </form>
-        </div>
-        <DividerHeading headerText={'Social'} />
-        <div>
-            <h3>Like us on Facebook!</h3>
-            <a href="https://www.facebook.com/theconstanttourists/" target='_blank' rel="noopener noreferrer">
-                <img className="social-link" src={fb} height="70px" alt="facebook" />
-            </a>
-        </div>
-        <br />
-        <div>
-            <h3>Follow us on Instagram!</h3>
-            <a href="https://www.instagram.com/theconstanttourists/" target='_blank' rel="noopener noreferrer">
-                <img className="social-link" src={ig} height="70px" alt="facebook" />
-            </a>
         </div>
     </div>
 )

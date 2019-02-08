@@ -79,7 +79,7 @@ export default class PageHeader extends Component {
                 {this.state.show_nav && (
                     <div id='nav_tray'>
                         <Link className='nav-link' id='nav-media' to="/media/">{'- Media -'}</Link>
-                        <Link className='nav-link' id='nav-media' to="/">{'- Home -'}</Link>
+                        <Link className='nav-link' id='nav-media' to="/music">{'- Music -'}</Link>
                         <Link className='nav-link' id='nav-booking' to="/contact/">{'- Contact -'}</Link>
                     </div>)
                 }
