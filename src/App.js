@@ -5,6 +5,7 @@ import ScrollToTop from './components/scroll_to_top'
 import PageFooter from './components/page_footer'
 import PageHeader from './components/page_header'
 import Photos from './components/photos'
+import Cowbell from './components/cowbell'
 
 import expand_menu from './images/icons/expand_menu.png'
 import expand_less from './images/icons/expand_less.png'
@@ -118,6 +119,7 @@ const Music = () => (
             <ul id='album_list'>
                 {albumsArray.map(a => albumItem(a))}
             </ul>
+        <UpcomingShows />
         <DividerHeading headerText={'Video'} />
             <iframe 
                 title="love_is_dumb"
@@ -129,7 +131,7 @@ const Music = () => (
                 allow={"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"}
                 allowFullScreen
             />
-        <UpcomingShows />
+        <Cowbell />
     </div>
 )
 
