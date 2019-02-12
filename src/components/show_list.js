@@ -3,18 +3,25 @@ import DividerHeading from '../components/divider_heading'
 
 const shows = [
     {
-        when: 'Saturday, March 2nd 9:00pm-12:30am',
+        when: 'Saturday, March 2nd 9pm-12:30am',
         venue: 'License #1 at the Hotel Boulderado (BIFF)',
         venue_url: 'https://biff1.com/music/',
         address: '2115 13th Street, Boulder, CO 80302',
         address_url: 'https://goo.gl/maps/uAV4ShiL9nF2'
     }, 
     {
-        when: 'Sunday, March 17th 11:00am-1:00pm',
+        when: 'Sunday, March 17th 11am-1pm',
         venue: 'Clancy\'s Irish Pub',
         venue_url: 'https://iloveclancys.com/',
         address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
         address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
+    },
+    {
+        when: 'Saturday, May 25th 6pm - 10pm',
+        venue: 'Wings Over the Rockies Museum (private event)',
+        venue_url: 'https://wingsmuseum.org/',
+        address: '7711 E Academy Blvd, Denver, CO 80230',
+        address_url: 'https://goo.gl/maps/mVH45cyssQk'
     }
 ]
 
