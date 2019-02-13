@@ -1,5 +1,5 @@
 import React from 'react'
-import DividerHeading from '../components/divider_heading'
+import DividerHeading from './divider_heading'
 
 const shows = [
     {
