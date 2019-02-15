@@ -1,5 +1,6 @@
 import React, { Component} from "react"
 import { Link } from 'react-router-dom'
+import AudioPlayer from './audio_player'
 
 import expand_menu from '../images/icons/expand_menu.png'
 import expand_less from '../images/icons/expand_less.png'
@@ -43,6 +44,7 @@ export default class PageHeader extends Component {
                             <p className="band_name_word">Tourists -</p>
                         </Link>
                 </span>
+                <AudioPlayer />
                 {this.state.show_nav && (
                     <div id='nav_tray'>
                         <Link className='nav-link' id='nav-media' to="/media/">{'- Media -'}</Link>

@@ -25,7 +25,7 @@ body {
 #header_container {
   position: fixed;
   height: 60px;
-  line-height: 60px;
+  line-height: 55px;
   width: 100vw;
   box-sizing: border-box;
   left: 0;
@@ -101,20 +101,17 @@ a {
   transform: scale(1.1);
 }
 /* AUDIO PLAYER STYLES */
-#audio_container {
-  display: hidden;
-  position: absolute;
-  right: 40px;
-  width: 170px;
-  height: 60px;
-  line-height: 60px;
+#audio-container {
+  float: right;
 }
 
-.audio-player-volume{
-  display:none;
+.audio-button {
+  vertical-align: middle;
+  margin-right: 4vw;
+  display: inline-block;
 }
 
-#play:hover, #rewind:hover, #forward:hover {
+.audio-button:hover {
   transform: scale(1.1)!important;
 }
 
