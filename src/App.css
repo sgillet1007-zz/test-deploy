@@ -102,6 +102,7 @@ a {
 }
 /* AUDIO PLAYER STYLES */
 #audio_container {
+  display: hidden;
   position: absolute;
   right: 40px;
   width: 170px;
@@ -208,6 +209,12 @@ a {
 
 .album_cover:hover {
   box-shadow: 1px 1px 1px 1px rgba(255, 249, 196, 0.2);
+}
+
+.press-article {
+  text-align: justify;
+  margin: 0 auto;
+  max-width: 90vw;
 }
 
 /* CONTACT PAGE STYLES */
