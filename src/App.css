@@ -106,6 +106,7 @@ a {
 }
 
 .audio-button {
+  width: 30px;
   vertical-align: middle;
   margin-right: 4vw;
   display: inline-block;
@@ -212,6 +213,12 @@ a {
   text-align: justify;
   margin: 0 auto;
   max-width: 90vw;
+}
+
+.press-hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90vw;
 }
 
 /* CONTACT PAGE STYLES */

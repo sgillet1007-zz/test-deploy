@@ -36,7 +36,7 @@ export default class AudioPlayer extends Component {
   render() {
     return (
       <span id="audio-container" onClick={this.handleSatan}>
-        {this.renderPlayButton()} 
+        {this.renderPlayButton()}
       </span>
     );
   }

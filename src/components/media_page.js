@@ -31,11 +31,33 @@ const Media = () => (
                     <img className="social-link" src={yt} height="70px" alt="youtube" />
                 </a>
             </div>
+            <br />
             <DividerHeading headerText={'Press'} />
-            <p class="press-article">
+            <p className="press-article">
+            <em>Westword - February 28, 2013</em>
+            <br />
+            <br />
+            <b>The Constant Tourists</b>
+            <br />
+            <br />
+            With a diverse collection of sounds and styles, often within the same song, the Constant Tourists have captured a 
+            warm, organic vibe on Carry On, especially with regard to the recording itself, which feels like it was done live,
+            in a room with great natural acoustics. You can hear small details here and there, like the sound of a pick or 
+            fingernails on strings ("Rufus"), which keeps things from sounding sterile. There's a touch of Dixieland in some of 
+            the songs, while others, such as "Tocame," conjure the playful emotional colorings of the calypso side of the Mighty 
+            Sparrow. Carry On has a cohesive feel, yet it never gets stuck in one songwriting mode. The aptly named "Lullaby" 
+            reveals a bit of Bob Dylan's influence, while "You're Gonna Miss Me" and "Love Ya" offer lively bursts of zydeco 
+            and klezmer.
+            <br />
+            <br />
+            Tom Murphy
+            </p>
+
+            <hr className="press-hr" />
+            <p className="press-article">
                 <em>The Taos News 06/28/2012, Page S20</em>
                 <br /><br />
-                <strong>The Constant Tourists aren&rsquo;t likely to stand around the plaza looking bewildered&nbsp;</strong>
+                <b>The Constant Tourists aren&rsquo;t likely to stand around the plaza looking bewildered&nbsp;</b>
                 <br /><br />
                 Kazoo, accordion, trumpet, cello &mdash; the Constant Tourists are not your typical band. The Denver-based 
                 band has been likened to the Squirrel Nut Zippers and&nbsp;Pink Martini,though according to founding member 
