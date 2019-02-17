@@ -38,11 +38,11 @@ export default class PageHeader extends Component {
             <div id="header_container">
                 <span id='toggle_nav_tray' onClick={this.onToggle}>{this.renderNavToggle()}</span>
                 <span id='band_name_container'>
+                        <hr className="header-hr"/>
                         <Link id='band_name' to="/">
-                            <p className="band_name_word">- The</p>
-                            <p className="band_name_word">Constant</p>
-                            <p className="band_name_word">Tourists -</p>
+                            <p className="band_name_word">The Constant Tourists</p>
                         </Link>
+                        <hr className="header-hr"/>
                 </span>
                 <AudioPlayer />
                 {this.state.show_nav && (
