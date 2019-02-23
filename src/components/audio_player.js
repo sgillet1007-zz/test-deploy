@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import satan_track from '../tracks/satan.mp3'
+import mashup from '../tracks/tct_mashup.mp3'
 import play_arrow from '../images/icons/play_arrow.png'
 import pause from '../images/icons/pause.png'
 
-const satan = new Audio(satan_track)
+const mashupAudio = new Audio(mashup);
+mashupAudio.loop = true;
 
 export default class AudioPlayer extends Component {
   constructor(props) {
@@ -15,13 +16,13 @@ export default class AudioPlayer extends Component {
     }
   }
 
-  handleSatan = () => {
+  handleAudio = () => {
     if(!this.state.playing){
         this.setState({playing: true})
-        satan.play()
+        mashupAudio.play()
     } else if(!!this.state.playing){
         this.setState({playing: false})
-        satan.pause() 
+        mashupAudio.pause() 
     }
   }
   
@@ -35,7 +36,7 @@ export default class AudioPlayer extends Component {
   
   render() {
     return (
-      <span id="audio-container" onClick={this.handleSatan}>
+      <span id="audio-container" onClick={this.handleAudio}>
         {this.renderPlayButton()}
       </span>
     );
