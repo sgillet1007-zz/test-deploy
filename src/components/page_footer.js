@@ -1,16 +1,19 @@
 import React from 'react'
-import logo from '../images/logo.jpg'
+import email from '../images/icons/email.png'
+import phone from '../images/icons/phone.png'
 
 export default () => (
     <div id='page-footer'>
         <a id="tel" href={atob('dGVsOjcyMDcwNzUxMDU=')}>
-            {atob('Q2FsbDogNzIwLjcwNy41MTA1')}
+            <img src={phone} alt='phone' />
         </a>
-        <a id="email" href={atob('bWFpbHRvOmJvb2tpbmdAdGhlY29uc3RhbnR0b3VyaXN0cy5jb20=')}>
-            {atob('RW1haWw6IGJvb2tpbmdAdGhlY29uc3RhbnR0b3VyaXN0cy5jb20=')}
+        <a id="email" href={atob('bWFpbHRvOmNhc3NpZS5rYW50b3JAZ21haWwuY29t')}>
+            <img src={email} alt='email' />
         </a>
         <br />
-        <img id="footer-logo" height="70px" src={logo} alt="logo" /><br />
-        <small>Copyright The Constant Tourists. All rights reserved.</small>
+        <small>
+            <div>Copyright The Constant Tourists.</div>
+            <div>All rights reserved.</div>
+        </small>
     </div>
 )
