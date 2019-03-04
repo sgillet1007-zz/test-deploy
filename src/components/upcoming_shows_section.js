@@ -2,13 +2,13 @@ import React from 'react'
 import DividerHeading from './divider_heading'
 
 const shows = [
-    {
-        when: 'Saturday, March 2nd 9pm-12:30am',
-        venue: 'License #1 at the Hotel Boulderado (BIFF)',
-        venue_url: 'https://biff1.com/music/',
-        address: '2115 13th Street, Boulder, CO 80302',
-        address_url: 'https://goo.gl/maps/uAV4ShiL9nF2'
-    }, 
+    // {
+    //     when: 'Saturday, March 2nd 9pm-12:30am',
+    //     venue: 'License #1 at the Hotel Boulderado (BIFF)',
+    //     venue_url: 'https://biff1.com/music/',
+    //     address: '2115 13th Street, Boulder, CO 80302',
+    //     address_url: 'https://goo.gl/maps/uAV4ShiL9nF2'
+    // }, 
     {
         when: 'Sunday, March 17th 11am-1pm',
         venue: 'Clancy\'s Irish Pub',
