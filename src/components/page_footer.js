@@ -7,7 +7,7 @@ export default () => (
         <a id="tel" href={atob('dGVsOjcyMDcwNzUxMDU=')}>
             <img src={phone} alt='phone' />
         </a>
-        <a id="email" href={atob('bWFpbHRvOmNhc3NpZS5rYW50b3JAZ21haWwuY29t')}>
+        <a id="email" href={atob('bWFpbHRvOmJvb2tpbmdAdGhlY29uc3RhbnR0b3VyaXN0cy5jb20=')}>
             <img src={email} alt='email' />
         </a>
         <br />
