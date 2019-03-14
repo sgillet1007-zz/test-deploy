@@ -17,11 +17,15 @@ const shows = [
         address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
     },
     {
-        when: 'Saturday, May 25th 6pm - 10pm',
-        venue: 'Wings Over the Rockies Museum (private event)',
-        venue_url: 'https://wingsmuseum.org/',
-        address: '7711 E Academy Blvd, Denver, CO 80230',
-        address_url: 'https://goo.gl/maps/mVH45cyssQk'
+        when: 'Saturday, May 25th 5pm - 8pm',
+        venue: 'Private Event - Denver, CO',
+    },
+    {
+        when: 'Wednesday, July 17th 7pm - 8pm',
+        venue: 'Littleton Museum - Summer Concert Series',
+        venue_url: 'https://www.littletongov.org/city-services/city-departments/museum',
+        address: '6028 S Gallup St, Littleton, CO 80120',
+        address_url: 'https://goo.gl/maps/aob3tjAv6mw'
     }
 ]
 
