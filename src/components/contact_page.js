@@ -10,7 +10,7 @@ const Contact = () => (
                 <input type="hidden" name="form-name" value="booking" />
                 <p><label><input type="text" name="name" placeholder="Your Name" required /></label></p>
                 <p><label><input type="email" name="email" placeholder="Your Email" required /></label></p>
-                <p><label><textarea name="message" placeholder="Your message to the Tourists..." required></textarea></label></p>
+                <p><label><textarea name="message" placeholder="Your message..." required></textarea></label></p>
                 <button className="btn" type="submit">Send Message</button>
             </form>
         </div>

@@ -237,6 +237,12 @@ a {
 
 #contact-form input, #contact-form textarea {
   width: 50vw;   
+  padding: 5px;
+}
+
+#contact-form :focus {
+  background-color: #fff9c4;
+  outline-color: #fff9c4;
 }
 
 [type='email'], [type='text'] {
@@ -244,10 +250,11 @@ a {
   background-color: #fffff7;
 }
 
-textarea {
+#contact-form textarea {
   height: 20vh;
   resize: none;
   background-color: #fffff7;
+  padding-top: 10px;
 }
 
 form[name="mailing-list"] {
