@@ -9,13 +9,13 @@ const shows = [
     //     address: '2115 13th Street, Boulder, CO 80302',
     //     address_url: 'https://goo.gl/maps/uAV4ShiL9nF2'
     // }, 
-    {
-        when: 'Sunday, March 17th 12:30pm-2pm',
-        venue: 'Clancy\'s Irish Pub - St. Patrick\'s Day 2019',
-        venue_url: 'https://iloveclancys.com/2019/02/26/saint-patricks-day-weekend-at-clancys-irish-pub-march-15th-16th-and-17th-brought-to-you-by-talnua-distillery/',
-        address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
-        address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
-    },
+    // {
+    //     when: 'Sunday, March 17th 12:30pm-2pm',
+    //     venue: 'Clancy\'s Irish Pub - St. Patrick\'s Day 2019',
+    //     venue_url: 'https://iloveclancys.com/2019/02/26/saint-patricks-day-weekend-at-clancys-irish-pub-march-15th-16th-and-17th-brought-to-you-by-talnua-distillery/',
+    //     address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
+    //     address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
+    // },
     {
         when: 'Saturday, May 25th 5pm - 8pm',
         venue: 'Private Event - Denver, CO',
