@@ -1,7 +1,8 @@
 import React, { Component} from "react"
 import { Link } from 'react-router-dom'
-import AudioPlayer from './audio_player'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
+import AudioPlayer from './audio_player'
 import expand_menu from '../images/icons/expand_menu.png'
 import expand_less from '../images/icons/expand_less.png'
 
@@ -12,16 +13,13 @@ export default class PageHeader extends Component {
         this.state ={
             show_nav: false
         }
-
-        this.onToggle = this.onToggle.bind(this);
-        this.renderNavToggle = this.renderNavToggle.bind(this);
     }
 
-    onToggle() {
+    onToggle = () => {
         this.setState({ show_nav: !this.state.show_nav})
     }
 
-    renderNavToggle() {
+    renderNavToggle = () => {
         if(this.state.show_nav){
             return (
                 <img src={expand_less} alt="hide" height="25px" width="25px" />
@@ -45,13 +43,21 @@ export default class PageHeader extends Component {
                         <hr className="header-hr"/>
                 </span>
                 <AudioPlayer />
-                {this.state.show_nav && (
-                    <div id='nav_tray'>
-                        <Link className='nav-link' id='nav-media' to="/media/">{'- Media -'}</Link>
-                        <Link className='nav-link' id='nav-media' to="/music">{'- Music -'}</Link>
-                        <Link className='nav-link' id='nav-booking' to="/contact/">{'- Contact -'}</Link>
-                    </div>)
-                }
+                <ReactCSSTransitionGroup
+                    transitionName="navtray"
+                    transitionEnterTimeout={250}
+                    transitionLeaveTimeout={100}
+                    transitionAppear={true}
+                    transitionAppearTimeout={250}
+                    >
+                    {this.state.show_nav && (
+                        <div id='nav_tray'>
+                            <Link className='nav-link' id='nav-media' to="/media/">{'- Media -'}</Link>
+                            <Link className='nav-link' id='nav-media' to="/music">{'- Music -'}</Link>
+                            <Link className='nav-link' id='nav-booking' to="/contact/">{'- Contact -'}</Link>
+                        </div>)
+                    }
+                </ReactCSSTransitionGroup>
             </div>
         )
     }

@@ -7,7 +7,7 @@ class ScrollToTop extends Component {
         window.scroll({
           top: 0,
           left: 0,
-          behavior: 'smooth'
+          behavior: 'auto'
         });
       }
     }

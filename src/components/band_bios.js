@@ -10,7 +10,7 @@ export default () => {
         <div>
             <DividerHeading headerText={'The Band'} />
             <img className='headshot' src={nate} alt="" />
-        <p className='bio-text'>
+        <p className='bio-text bio-title'>
             <strong>Nate Sanchez</strong> - Guitar, Vocals, Songwriter, & Kazoo
         </p>
         <p className='bio-text'>
@@ -18,7 +18,7 @@ export default () => {
         </p>
 
         <img className='headshot' src={cass} alt="" />
-        <p className='bio-text'>
+        <p className='bio-text bio-title'>
             <strong>Cassie Sanchez</strong> - Accordion, Trumpet, Songwriter, & Vocals
         </p>
         <p className='bio-text'>
@@ -26,7 +26,7 @@ export default () => {
         </p>
 
         <img className='headshot' src={mike} alt="" />
-        <p className='bio-text'>
+        <p className='bio-text bio-title'>
             <strong>Mike Dudley</strong> - Bass Guitar
         </p>
         <p className='bio-text'>
@@ -34,7 +34,7 @@ export default () => {
         </p>
 
         <img className='headshot' src={sam} alt="" />
-        <p className='bio-text'>
+        <p className='bio-text bio-title'>
             <strong>Sam Gillet</strong> - Drums, Cymbals, & Waffle Pan
         </p>
         <p className='bio-text'>

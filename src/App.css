@@ -1,3 +1,10 @@
+* {
+  -webkit-transition: 0.25s ease-in-out; 
+  -moz-transition: 0.25s ease-in-out; 
+  -o-transition: 0.25s ease-in-out; 
+  transition: 0.25s ease-in-out; 
+}
+
 body {
   position: relative;
   width: 100vw;
@@ -18,7 +25,7 @@ body {
 }
 
 .layoutTopPadding{
-  padding-top: 85px;
+  padding-top: 95px;
 }
 
 /* PAGE HEADER AND NAV TRAY STYLES */
@@ -58,21 +65,23 @@ body {
 #band_name:hover {
   text-shadow: 1px 1px rgba(27, 27, 27, 0.8);
   color: #fff9c4;
+  transform: scale(1.1)!important;
 }
 
 #nav_tray {
   position: fixed;
   top: 60px;
-  height: 35px;
+  height: 45px;
   width: 100vw;
   box-sizing: border-box;
-  line-height: 35px;
+  line-height: 45px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgba(27, 27, 27, 0.9);
+  background-color: rgba(27, 27, 27);
   z-index:2;
+  opacity: 0.9;
 }
 
 #toggle_nav_tray {
@@ -92,7 +101,7 @@ body {
 
 #toggle_nav_tray img:hover {
   color: #fff9c4;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 a {
@@ -102,7 +111,7 @@ a {
 
 .nav-link:hover {
   color: #fff9c4;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 /* AUDIO PLAYER STYLES */
 #audio-container {
@@ -175,12 +184,28 @@ a {
 .headshot {
   border: 3px #fffff7 solid;
   margin-top: 25px;
-  opacity: 0.7
+  margin-bottom: 20px;
+  opacity: 0.7;
+  width: 15vw;
+  min-width: 200px;
+  max-width: 400px;
+  filter: sepia(40%);
+}
+
+.headshot:hover {
+  filter: sepia(5%);
 }
 
 .bio-text {
-  width: 60vw;
+  width: 55vw;
   margin: 0 auto;
+  max-width: 400px;
+  text-align:justify;
+  margin-bottom: 20px;
+}
+
+.bio-title {
+  font-size: 1.2em;
 }
 
 /* PHOTOS SECTION STYLES */
