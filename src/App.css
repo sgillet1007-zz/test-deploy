@@ -165,7 +165,6 @@ a {
 }
 
 /* SHOW LIST STYLES */
-
 .show-item{
   margin-top: 20px;
   margin-bottom: 40px;
@@ -177,7 +176,6 @@ a {
 
 .show-hoverable:hover{
   color: #fff9c4;
-  /* transform: scale(1.1); */
 }
 
 /* BIOGRAPHY STYLES */
@@ -313,7 +311,6 @@ form[name="mailing-list"] {
 
 .social-link:hover, .btn:hover {
   box-shadow: 1px 2px 2px 1px rgba(255, 249, 196, 0.2);
-  transform: scale(1.05);
   border-radius: 5px;
 }
 
