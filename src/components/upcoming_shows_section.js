@@ -21,6 +21,13 @@ const shows = [
         venue: 'Private Event - Denver, CO',
     },
     {
+        when: 'Saturday, June 29th 7pm - 10pm',
+        venue: 'City Star Brewing',
+        venue_url: 'https://citystarbrewing.com/',
+        address: '321 Mountain Ave, Berthoud, CO 80513',
+        address_url: 'https://goo.gl/maps/AFznYzwm28L2'
+    },
+    {
         when: 'Wednesday, July 17th 7pm - 8pm',
         venue: 'Littleton Museum - Summer Concert Series',
         venue_url: 'https://www.littletongov.org/city-services/city-departments/museum',
