@@ -187,7 +187,7 @@ a {
   width: 15vw;
   min-width: 200px;
   max-width: 400px;
-  filter: sepia(40%);
+  filter: sepia(30%);
 }
 
 .headshot:hover {
