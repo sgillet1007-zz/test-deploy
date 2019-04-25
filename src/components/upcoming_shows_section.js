@@ -21,6 +21,13 @@ const shows = [
         venue: 'Private Event - Denver, CO',
     },
     {
+        when: 'Saturday, June 22nd 5pm - 8pm',
+        venue: 'Spirit Hound Distillery',
+        venue_url: 'http://www.spirithounds.com/',
+        address: '4196 Ute Hwy, Lyons, CO 80540',
+        address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8'
+    },
+    {
         when: 'Saturday, June 29th 7pm - 10pm',
         venue: 'City Star Brewing',
         venue_url: 'https://citystarbrewing.com/',
@@ -33,6 +40,13 @@ const shows = [
         venue_url: 'https://www.littletongov.org/city-services/city-departments/museum',
         address: '6028 S Gallup St, Littleton, CO 80120',
         address_url: 'https://goo.gl/maps/aob3tjAv6mw'
+    },
+    {
+        when: 'Sunday, July 21st 6pm - 8pm',
+        venue: 'Odell Brewing Company',
+        venue_url: 'https://www.odellbrewing.com/',
+        address: '800 E Lincoln Ave, Fort Collins, CO 80524',
+        address_url: 'https://goo.gl/maps/2i2o3Z6NSiQfDfnR7'
     }
 ]
 
