@@ -47,6 +47,13 @@ const shows = [
         venue_url: 'https://www.odellbrewing.com/',
         address: '800 E Lincoln Ave, Fort Collins, CO 80524',
         address_url: 'https://goo.gl/maps/2i2o3Z6NSiQfDfnR7'
+    },
+    {
+        when: 'Saturday, August 24th 12pm - 3pm',
+        venue: 'Mile High Flea Market',
+        venue_url: 'https://milehighfleamarket.com/en/things-to-do/live-entertainment/',
+        address: '7007 E 88th Ave, Henderson, CO 80640',
+        address_url: 'https://goo.gl/maps/8CHUad8K5bwia7A96'
     }
 ]
 
