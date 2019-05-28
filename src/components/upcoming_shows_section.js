@@ -16,10 +16,10 @@ const shows = [
     //     address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
     //     address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
     // },
-    {
-        when: 'Saturday, May 25th 5pm - 8pm',
-        venue: 'Private Event - Denver, CO',
-    },
+    // {
+    //     when: 'Saturday, May 25th 5pm - 8pm',
+    //     venue: 'Private Event - Denver, CO',
+    // },
     {
         when: 'Saturday, June 29th 7pm - 10pm',
         venue: 'City Star Brewing',
