@@ -35,6 +35,13 @@ const shows = [
         address_url: 'https://goo.gl/maps/AFznYzwm28L2'
     },
     {
+        when: 'Tuesday, July 2nd 7pm - 8pm',
+        venue: 'The Argyle',
+        venue_url: 'https://www.theargyle.org/',
+        address: '4115 W 38th Ave, Denver, CO 80212',
+        address_url: 'https://goo.gl/maps/112npp9z67pDNpGG7'
+    },
+    {
         when: 'Wednesday, July 17th 7pm - 8pm',
         venue: 'Littleton Museum - Summer Concert Series',
         venue_url: 'https://www.littletongov.org/city-services/city-departments/museum',
@@ -47,6 +54,10 @@ const shows = [
         venue_url: 'https://www.odellbrewing.com/',
         address: '800 E Lincoln Ave, Fort Collins, CO 80524',
         address_url: 'https://goo.gl/maps/2i2o3Z6NSiQfDfnR7'
+    },
+    {
+        when: 'Sunday, July 28th 7:30pm - 10pm',
+        venue: 'Private Event - Boulder, CO',
     },
     {
         when: 'Saturday, August 24th 12pm - 3pm',
