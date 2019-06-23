@@ -20,13 +20,13 @@ const shows = [
     //     when: 'Saturday, May 25th 5pm - 8pm',
     //     venue: 'Private Event - Denver, CO',
     // },
-    {
-        when: 'Saturday, June 22nd 5pm - 8pm',
-        venue: 'Spirit Hound Distillery',
-        venue_url: 'http://www.spirithounds.com/',
-        address: '4196 Ute Hwy, Lyons, CO 80540',
-        address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8'
-    },
+    // {
+    //     when: 'Saturday, June 22nd 5pm - 8pm',
+    //     venue: 'Spirit Hound Distillery',
+    //     venue_url: 'http://www.spirithounds.com/',
+    //     address: '4196 Ute Hwy, Lyons, CO 80540',
+    //     address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8'
+    // },
     {
         when: 'Saturday, June 29th 7pm - 10pm',
         venue: 'City Star Brewing',
@@ -36,10 +36,10 @@ const shows = [
     },
     {
         when: 'Tuesday, July 2nd 7pm - 8pm',
-        venue: 'The Argyle',
-        venue_url: 'https://www.theargyle.org/',
-        address: '4115 W 38th Ave, Denver, CO 80212',
-        address_url: 'https://goo.gl/maps/112npp9z67pDNpGG7'
+        venue: 'Private Event - Denver, CO',
+        // venue_url: 'https://www.theargyle.org/',
+        // address: '4115 W 38th Ave, Denver, CO 80212',
+        // address_url: 'https://goo.gl/maps/112npp9z67pDNpGG7'
     },
     {
         when: 'Wednesday, July 17th 7pm - 8pm',
