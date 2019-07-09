@@ -34,13 +34,13 @@ const shows = [
     //     address: '321 Mountain Ave, Berthoud, CO 80513',
     //     address_url: 'https://goo.gl/maps/AFznYzwm28L2'
     // },
-    {
-        when: 'Tuesday, July 2nd 7pm - 8pm',
-        venue: 'Private Event - Denver, CO',
-        // venue_url: 'https://www.theargyle.org/',
-        // address: '4115 W 38th Ave, Denver, CO 80212',
-        // address_url: 'https://goo.gl/maps/112npp9z67pDNpGG7'
-    },
+    // {
+    //     when: 'Tuesday, July 2nd 7pm - 8pm',
+    //     venue: 'Private Event - Denver, CO',
+    //     // venue_url: 'https://www.theargyle.org/',
+    //     // address: '4115 W 38th Ave, Denver, CO 80212',
+    //     // address_url: 'https://goo.gl/maps/112npp9z67pDNpGG7'
+    // },
     {
         when: 'Wednesday, July 17th 7pm - 8pm',
         venue: 'Littleton Museum - Summer Concert Series',
