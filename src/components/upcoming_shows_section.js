@@ -48,16 +48,23 @@ const shows = [
     //     address: '6028 S Gallup St, Littleton, CO 80120',
     //     address_url: 'https://goo.gl/maps/aob3tjAv6mw'
     // },
+    // {
+    //     when: 'Sunday, July 21st 6pm - 8pm',
+    //     venue: 'Odell Brewing Company',
+    //     // venue_url: 'https://www.odellbrewing.com/',
+    //     address: 'Private Event',
+    //     // address_url: 'https://goo.gl/maps/2i2o3Z6NSiQfDfnR7'
+    // },
+    // {
+    //     when: 'Sunday, July 28th 7:30pm - 10pm',
+    //     venue: 'Wedding Reception- Boulder, CO',
+    // },
     {
-        when: 'Sunday, July 21st 6pm - 8pm',
-        venue: 'Odell Brewing Company',
-        // venue_url: 'https://www.odellbrewing.com/',
-        address: 'Private Event',
-        // address_url: 'https://goo.gl/maps/2i2o3Z6NSiQfDfnR7'
-    },
-    {
-        when: 'Sunday, July 28th 7:30pm - 10pm',
-        venue: 'Wedding Reception- Boulder, CO',
+        when: 'Saturday, August 17th 7pm - 10pm',
+        venue: 'City Star Brewing',
+        venue_url: 'https://citystarbrewing.com/',
+        address: '321 Mountain Ave, Berthoud, CO 80513',
+        address_url: 'https://goo.gl/maps/AFznYzwm28L2'
     },
     {
         when: 'Saturday, August 24th 12pm - 3pm',
