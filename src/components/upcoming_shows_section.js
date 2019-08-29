@@ -59,19 +59,26 @@ const shows = [
     //     when: 'Sunday, July 28th 7:30pm - 10pm',
     //     venue: 'Wedding Reception- Boulder, CO',
     // },
+    // {
+    //     when: 'Saturday, August 17th 7pm - 10pm',
+    //     venue: 'City Star Brewing',
+    //     venue_url: 'https://citystarbrewing.com/',
+    //     address: '321 Mountain Ave, Berthoud, CO 80513',
+    //     address_url: 'https://goo.gl/maps/AFznYzwm28L2'
+    // },
+    // {
+    //     when: 'Saturday, August 24th 12pm - 3pm',
+    //     venue: 'Mile High Flea Market',
+    //     venue_url: 'https://milehighfleamarket.com/en/things-to-do/live-entertainment/',
+    //     address: '7007 E 88th Ave, Henderson, CO 80640',
+    //     address_url: 'https://goo.gl/maps/8CHUad8K5bwia7A96'
+    // },
     {
-        when: 'Saturday, August 17th 7pm - 10pm',
-        venue: 'City Star Brewing',
-        venue_url: 'https://citystarbrewing.com/',
-        address: '321 Mountain Ave, Berthoud, CO 80513',
-        address_url: 'https://goo.gl/maps/AFznYzwm28L2'
-    },
-    {
-        when: 'Saturday, August 24th 12pm - 3pm',
-        venue: 'Mile High Flea Market',
-        venue_url: 'https://milehighfleamarket.com/en/things-to-do/live-entertainment/',
-        address: '7007 E 88th Ave, Henderson, CO 80640',
-        address_url: 'https://goo.gl/maps/8CHUad8K5bwia7A96'
+        when: 'Thursday, September 12th 5pm - 8pm',
+        venue: 'Southlands Wine Walk',
+        venue_url: 'https://www.shopsouthlands.com/eventprograms/southlands-wine-walk/',
+        address: '6155 S. Main Street Aurora, CO 80016',
+        address_url: 'https://goo.gl/maps/mqetFQodzfAuVs9k8'
     }
 ]
 
