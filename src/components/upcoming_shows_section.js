@@ -73,12 +73,19 @@ const shows = [
     //     address: '7007 E 88th Ave, Henderson, CO 80640',
     //     address_url: 'https://goo.gl/maps/8CHUad8K5bwia7A96'
     // },
+    // {
+    //     when: 'Thursday, September 12th 5pm - 8pm',
+    //     venue: 'Southlands Wine Walk',
+    //     venue_url: 'https://www.shopsouthlands.com/eventprograms/southlands-wine-walk/',
+    //     address: '6155 S. Main Street Aurora, CO 80016',
+    //     address_url: 'https://goo.gl/maps/mqetFQodzfAuVs9k8'
+    // },
     {
-        when: 'Thursday, September 12th 5pm - 8pm',
-        venue: 'Southlands Wine Walk',
-        venue_url: 'https://www.shopsouthlands.com/eventprograms/southlands-wine-walk/',
-        address: '6155 S. Main Street Aurora, CO 80016',
-        address_url: 'https://goo.gl/maps/mqetFQodzfAuVs9k8'
+        when: 'Saturday, December 14th 9am - 11:15am',
+        venue: 'Hadley Branch Library',
+        venue_url: 'https://www.denverlibrary.org/content/hadley-branch-library',
+        address: '1890 S. Grove Street Denver, CO 80219',
+        address_url: 'https://goo.gl/maps/WUXDqbdi7YKnsh1t6'
     }
 ]
 
