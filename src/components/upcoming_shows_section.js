@@ -81,6 +81,13 @@ const shows = [
     //     address_url: 'https://goo.gl/maps/mqetFQodzfAuVs9k8'
     // },
     {
+        when: 'Saturday, October 26th 5:30pm - 6:15pm',
+        venue: 'Private Wedding Party',
+        // venue_url: 'https://www.denverlibrary.org/content/hadley-branch-library',
+        address: 'New Orleans, LA',
+        // address_url: 'https://goo.gl/maps/WUXDqbdi7YKnsh1t6'
+    },
+    {
         when: 'Saturday, December 14th 9am - 11:15am',
         venue: 'Hadley Branch Library',
         venue_url: 'https://www.denverlibrary.org/content/hadley-branch-library',
