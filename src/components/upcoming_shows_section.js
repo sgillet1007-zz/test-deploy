@@ -1,5 +1,6 @@
 import React from 'react'
 import DividerHeading from './divider_heading'
+import { Link } from 'react-router-dom'
 
 const shows = [
     // {
@@ -87,13 +88,13 @@ const shows = [
     //     address: 'New Orleans, LA',
     //     // address_url: 'https://goo.gl/maps/WUXDqbdi7YKnsh1t6'
     // },
-    {
-        when: 'Saturday, December 14th 9am - 11:15am',
-        venue: 'Hadley Branch Library',
-        venue_url: 'https://www.denverlibrary.org/content/hadley-branch-library',
-        address: '1890 S. Grove Street Denver, CO 80219',
-        address_url: 'https://goo.gl/maps/WUXDqbdi7YKnsh1t6'
-    }
+    // {
+    //     when: 'Saturday, December 14th 9am - 11:15am',
+    //     venue: 'Hadley Branch Library',
+    //     venue_url: 'https://www.denverlibrary.org/content/hadley-branch-library',
+    //     address: '1890 S. Grove Street Denver, CO 80219',
+    //     address_url: 'https://goo.gl/maps/WUXDqbdi7YKnsh1t6'
+    // }
 ]
 
 const Show = props => {
@@ -117,6 +118,10 @@ export default () => {
         <div>
             <DividerHeading headerText={'Upcoming Shows'} />
             {renderShowList()}
+            {shows.length === 0 && (<div className="show-item">
+            <strong className="show-title-text">No upcoming shows</strong>
+            <div><Link to="/contact"><div className="show-hoverable">(pssst... click here to book us for your next party, wedding or bar mitzva!)</div></Link></div>
+            </div>)}
         </div>
     )
 }
