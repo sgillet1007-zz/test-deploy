@@ -120,7 +120,7 @@ export default () => {
             {renderShowList()}
             {shows.length === 0 && (<div className="show-item">
             <strong className="show-title-text">No upcoming shows</strong>
-            <div><Link to="/contact"><div className="show-hoverable">(pssst... click here to book us for your next party, wedding or bar mitzva!)</div></Link></div>
+            <div><Link to="/contact"><div className="show-hoverable">(pssst... click here to book us for your party, wedding or bar mitzva!)</div></Link></div>
             </div>)}
         </div>
     )
