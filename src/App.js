@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import './App.css'
-
 import ScrollToTop from './components/scroll_to_top'
 import PageFooter from './components/page_footer'
 import PageHeader from './components/page_header'
@@ -9,9 +8,9 @@ import Home from './components/home_page'
 import Music from './components/music_page'
 import Media from './components/media_page'
 import Contact from './components/contact_page'
-
 import expand_menu from './images/icons/expand_menu.png'
 import expand_less from './images/icons/expand_less.png'
+
 class App extends Component {
     constructor(props) {
         super(props)
