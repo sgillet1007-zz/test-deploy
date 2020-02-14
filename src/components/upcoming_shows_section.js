@@ -18,12 +18,12 @@ const shows = [
     address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
   },
   {
-    when: 'Saturday, March 14th 5pm - 6pm',
+    when: 'Saturday, March 14th 7pm - 9:30pm',
     venue: 'City Star Brewing',
     venue_url: 'https://citystarbrewing.com/',
     address: '321 Mountain Ave, Berthoud, CO 80513',
     address_url: 'https://goo.gl/maps/AFznYzwm28L2'
-},
+  },
   {
     when: 'Tuesday, March 17th 11am-12:30pm',
     venue: "Clancy's Irish Pub (outside stage)",
