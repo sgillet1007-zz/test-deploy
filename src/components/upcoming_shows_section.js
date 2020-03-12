@@ -30,18 +30,18 @@ const shows = [
     venue_url: 'https://iloveclancys.com/category/events/',
     address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
     address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
-  }
+  },
   // {
   //     when: 'Saturday, May 25th 5pm - 8pm',
   //     venue: 'Private Event - Denver, CO',
   // },
-  // {
-  //     when: 'Saturday, June 22nd 5pm - 8pm',
-  //     venue: 'Spirit Hound Distillery',
-  //     venue_url: 'http://www.spirithounds.com/',
-  //     address: '4196 Ute Hwy, Lyons, CO 80540',
-  //     address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8'
-  // },
+  {
+      when: 'Saturday, July 11th 5pm - 8pm',
+      venue: 'Spirit Hound Distillery',
+      venue_url: 'http://www.spirithounds.com/',
+      address: '4196 Ute Hwy, Lyons, CO 80540',
+      address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8'
+  }
   // {
   //     when: 'Tuesday, July 2nd 7pm - 8pm',
   //     venue: 'Private Event - Denver, CO',
