@@ -10,38 +10,38 @@ const shows = [
   //     address: '2115 13th Street, Boulder, CO 80302',
   //     address_url: 'https://goo.gl/maps/uAV4ShiL9nF2'
   // },
-  {
-    when: 'Saturday, March 14th 12:30pm-2pm',
-    venue: "Clancy's Irish Pub (inside stage)",
-    venue_url: 'https://iloveclancys.com/category/events/',
-    address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
-    address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
-  },
-  {
-    when: 'Saturday, March 14th 7pm - 9:30pm',
-    venue: 'City Star Brewing',
-    venue_url: 'https://citystarbrewing.com/',
-    address: '321 Mountain Ave, Berthoud, CO 80513',
-    address_url: 'https://goo.gl/maps/AFznYzwm28L2'
-  },
+  // {
+  //   when: 'Saturday, March 14th 12:30pm-2pm',
+  //   venue: "Clancy's Irish Pub (inside stage)",
+  //   venue_url: 'https://iloveclancys.com/category/events/',
+  //   address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
+  //   address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
+  // },
+  // {
+  //   when: 'Saturday, March 14th 7pm - 9:30pm',
+  //   venue: 'City Star Brewing',
+  //   venue_url: 'https://citystarbrewing.com/',
+  //   address: '321 Mountain Ave, Berthoud, CO 80513',
+  //   address_url: 'https://goo.gl/maps/AFznYzwm28L2'
+  // },
   {
     when: 'Tuesday, March 17th 11am-12:30pm',
     venue: "Clancy's Irish Pub (outside stage)",
     venue_url: 'https://iloveclancys.com/category/events/',
     address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
-    address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
+    address_url: 'https://goo.gl/maps/voBdJmDVkwC2',
   },
   // {
   //     when: 'Saturday, May 25th 5pm - 8pm',
   //     venue: 'Private Event - Denver, CO',
   // },
   {
-      when: 'Saturday, July 11th 5pm - 8pm',
-      venue: 'Spirit Hound Distillery',
-      venue_url: 'http://www.spirithounds.com/',
-      address: '4196 Ute Hwy, Lyons, CO 80540',
-      address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8'
-  }
+    when: 'Saturday, July 11th 5pm - 8pm',
+    venue: 'Spirit Hound Distillery',
+    venue_url: 'http://www.spirithounds.com/',
+    address: '4196 Ute Hwy, Lyons, CO 80540',
+    address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8',
+  },
   // {
   //     when: 'Tuesday, July 2nd 7pm - 8pm',
   //     venue: 'Private Event - Denver, CO',
@@ -107,24 +107,24 @@ const shows = [
 const Show = props => {
   const { when, venue, venue_url, address_url, address } = props.data;
   return (
-    <div className="show-item">
-      <strong className="show-title-text">{`${when}`}</strong>
+    <div className='show-item'>
+      <strong className='show-title-text'>{`${when}`}</strong>
       <div>
         <a
-          className="show-hoverable"
+          className='show-hoverable'
           href={venue_url}
-          rel="noopener noreferrer"
-          target="_blank"
+          rel='noopener noreferrer'
+          target='_blank'
         >
           {venue}
         </a>
       </div>
       <div>
         <a
-          className="show-hoverable"
+          className='show-hoverable'
           href={address_url}
-          rel="noopener noreferrer"
-          target="_blank"
+          rel='noopener noreferrer'
+          target='_blank'
         >
           {address}
         </a>
@@ -141,11 +141,11 @@ export default () => {
       <DividerHeading headerText={'Upcoming Shows'} />
       {renderShowList()}
       {shows.length === 0 && (
-        <div className="show-item">
-          <strong className="show-title-text">No upcoming shows</strong>
+        <div className='show-item'>
+          <strong className='show-title-text'>No upcoming shows</strong>
           <div>
-            <Link to="/contact">
-              <div className="show-hoverable">
+            <Link to='/contact'>
+              <div className='show-hoverable'>
                 (pssst... click here to book us for your party, wedding or bar
                 mitzva!)
               </div>
