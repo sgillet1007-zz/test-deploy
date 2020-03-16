@@ -24,13 +24,13 @@ const shows = [
   //   address: '321 Mountain Ave, Berthoud, CO 80513',
   //   address_url: 'https://goo.gl/maps/AFznYzwm28L2'
   // },
-  {
-    when: 'Tuesday, March 17th 11am-12:30pm',
-    venue: "Clancy's Irish Pub (outside stage)",
-    venue_url: 'https://iloveclancys.com/category/events/',
-    address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
-    address_url: 'https://goo.gl/maps/voBdJmDVkwC2',
-  },
+  // {
+  //   when: 'Tuesday, March 17th 11am-12:30pm',
+  //   venue: "Clancy's Irish Pub (outside stage)",
+  //   venue_url: 'https://iloveclancys.com/category/events/',
+  //   address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
+  //   address_url: 'https://goo.gl/maps/voBdJmDVkwC2',
+  // },
   // {
   //     when: 'Saturday, May 25th 5pm - 8pm',
   //     venue: 'Private Event - Denver, CO',
