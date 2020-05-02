@@ -153,7 +153,8 @@ a {
 #page-footer {
   margin-top: 20px;
   padding: 25px;
-  background-color: #424242;
+  background-color: rgba(0, 0, 0, 0.2);
+  line-height: 1.8rem;
 }
 
 #email {
