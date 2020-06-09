@@ -1,5 +1,5 @@
-import React from "react";
-import DividerHeading from "./divider_heading";
+import React from 'react';
+import DividerHeading from './divider_heading';
 // import { Link } from "react-router-dom";
 
 const shows = [
@@ -36,11 +36,11 @@ const shows = [
   //     venue: 'Private Event - Denver, CO',
   // },
   {
-    when: "Saturday, July 11th 5pm - 8pm",
-    venue: "Spirit Hound Distillery",
-    venue_url: "http://www.spirithounds.com/",
-    address: "4196 Ute Hwy, Lyons, CO 80540",
-    address_url: "https://goo.gl/maps/tXVnQ3yP7cGfdt6x8",
+    when: 'Saturday, July 11th 5pm - 8pm',
+    venue: 'Spirit Hound Distillery',
+    venue_url: 'http://www.spirithounds.com/',
+    address: '4196 Ute Hwy, Lyons, CO 80540',
+    address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8',
   },
   // {
   //     when: 'Tuesday, July 2nd 7pm - 8pm',
@@ -107,24 +107,24 @@ const shows = [
 const Show = (props) => {
   const { when, venue, venue_url, address_url, address } = props.data;
   return (
-    <div className="show-item">
-      <strong className="show-title-text">{`${when}`}</strong>
+    <div className='show-item'>
+      <strong className='show-title-text'>{`${when}`}</strong>
       <div>
         <a
-          className="show-hoverable"
+          className='show-hoverable'
           href={venue_url}
-          rel="noopener noreferrer"
-          target="_blank"
+          rel='noopener noreferrer'
+          target='_blank'
         >
           {venue}
         </a>
       </div>
       <div>
         <a
-          className="show-hoverable"
+          className='show-hoverable'
           href={address_url}
-          rel="noopener noreferrer"
-          target="_blank"
+          rel='noopener noreferrer'
+          target='_blank'
         >
           {address}
         </a>
@@ -138,9 +138,9 @@ const renderShowList = () => shows.map((s, i) => <Show data={s} key={i} />);
 export default () => {
   return (
     <div>
-      <DividerHeading headerText={"Upcoming Shows"} />
-      <div>
-        <div className="show-item">
+      <DividerHeading headerText={'Upcoming Shows'} />
+      {/* <div> */}
+      {/* <div className="show-item">
           <strong className="show-title-text">{`Thursdays 9 - 10pm (Mountain Time)`}</strong>
           <div>
             <a
@@ -166,8 +166,8 @@ export default () => {
               {`Streaming to you live from Nate and Cass' house!`}
             </a>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       {renderShowList()}
       {/* {shows.length === 0 && (
         <div className='show-item'>
