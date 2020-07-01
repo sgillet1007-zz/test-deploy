@@ -1,6 +1,6 @@
 import React from 'react';
 import DividerHeading from './divider_heading';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const shows = [
   // {
@@ -35,13 +35,13 @@ const shows = [
   //     when: 'Saturday, May 25th 5pm - 8pm',
   //     venue: 'Private Event - Denver, CO',
   // },
-  {
-    when: 'Saturday, July 11th 5pm - 8pm',
-    venue: 'Spirit Hound Distillery',
-    venue_url: 'http://www.spirithounds.com/',
-    address: '4196 Ute Hwy, Lyons, CO 80540',
-    address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8',
-  },
+  // {
+  //   when: 'Saturday, July 11th 5pm - 8pm',
+  //   venue: 'Spirit Hound Distillery',
+  //   venue_url: 'http://www.spirithounds.com/',
+  //   address: '4196 Ute Hwy, Lyons, CO 80540',
+  //   address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8',
+  // },
   // {
   //     when: 'Tuesday, July 2nd 7pm - 8pm',
   //     venue: 'Private Event - Denver, CO',
@@ -169,19 +169,19 @@ export default () => {
         </div> */}
       {/* </div> */}
       {renderShowList()}
-      {/* {shows.length === 0 && (
+      {shows.length === 0 && (
         <div className='show-item'>
-        <strong className='show-title-text'>No upcoming shows</strong>
+        <strong className='show-title-text'>Live shows are on hold due to COVID</strong>
+        <div>Stay safe everyone.  We hope to be back soon!</div>
           <div>
             <Link to='/contact'>
               <div className='show-hoverable'>
-                (pssst... click here to book us for your party, wedding or bar
-                mitzva!)
+                (click here to get in touch)
               </div>
             </Link>
           </div>
         </div>
-      )} */}
+      )}
     </div>
   );
 };
