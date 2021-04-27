@@ -10,13 +10,13 @@ const shows = [
   //     address: '2115 13th Street, Boulder, CO 80302',
   //     address_url: 'https://goo.gl/maps/uAV4ShiL9nF2'
   // },
-  // {
-  //   when: 'Saturday, March 14th 12:30pm-2pm',
-  //   venue: "Clancy's Irish Pub (inside stage)",
-  //   venue_url: 'https://iloveclancys.com/category/events/',
-  //   address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
-  //   address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
-  // },
+  {
+    when: 'Saturday, May 1st 2pm-4pm',
+    venue: "Clancy's Irish Pub (outside patio)",
+    venue_url: 'https://iloveclancys.com',
+    address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
+    address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
+  },
   // {
   //   when: 'Saturday, March 14th 7pm - 9:30pm',
   //   venue: 'City Star Brewing',
