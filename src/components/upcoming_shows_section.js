@@ -10,13 +10,13 @@ const shows = [
   //     address: '2115 13th Street, Boulder, CO 80302',
   //     address_url: 'https://goo.gl/maps/uAV4ShiL9nF2'
   // },
-  {
-    when: 'Saturday, May 1st 2pm-4pm',
-    venue: "Clancy's Irish Pub (outside patio)",
-    venue_url: 'https://iloveclancys.com',
-    address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
-    address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
-  },
+  // {
+  //   when: 'Saturday, May 1st 2pm-4pm',
+  //   venue: "Clancy's Irish Pub (outside patio)",
+  //   venue_url: 'https://iloveclancys.com',
+  //   address: '7000 W 38th Ave, Wheat Ridge, CO 80033',
+  //   address_url: 'https://goo.gl/maps/voBdJmDVkwC2'
+  // },
   // {
   //   when: 'Saturday, March 14th 7pm - 9:30pm',
   //   venue: 'City Star Brewing',
@@ -171,12 +171,12 @@ export default () => {
       {renderShowList()}
       {shows.length === 0 && (
         <div className='show-item'>
-        <strong className='show-title-text'>Live shows are on hold due to COVID</strong>
-        <div>Stay safe everyone.  We hope to be back soon!</div>
+        <strong className='show-title-text'>No Upcoming Shows</strong>
+        <div>Check back soon... we're working on getting shows added for summer 2021!</div>
           <div>
             <Link to='/contact'>
               <div className='show-hoverable'>
-                (click here to get in touch)
+                (click here to contact us directly)
               </div>
             </Link>
           </div>
