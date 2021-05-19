@@ -25,7 +25,7 @@ const shows = [
   //   address_url: 'https://goo.gl/maps/AFznYzwm28L2'
   // },
   {
-    when: 'Sunday, July 27th 1pm - 5:30pm',
+    when: 'Sunday, June 27th 1pm - 5:30pm',
     venue: 'Left Hand Brewing Company,',
     venue_url: 'https://lefthandbrewing.com/',
     address: '1265 Boston Ave, Longmont, CO 80501',
