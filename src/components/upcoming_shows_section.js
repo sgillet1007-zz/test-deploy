@@ -24,6 +24,13 @@ const shows = [
   //   address: '321 Mountain Ave, Berthoud, CO 80513',
   //   address_url: 'https://goo.gl/maps/AFznYzwm28L2'
   // },
+  {
+    when: 'Sunday, July 27th 1pm - 5:30pm',
+    venue: 'Left Hand Brewing Company,',
+    venue_url: 'https://lefthandbrewing.com/',
+    address: '1265 Boston Ave, Longmont, CO 80501',
+    address_url: 'https://goo.gl/maps/ckqrvHDJkHSN8vcf6'
+  },
   // {
   //   when: 'Tuesday, March 17th 11am-12:30pm',
   //   venue: "Clancy's Irish Pub (outside stage)",
