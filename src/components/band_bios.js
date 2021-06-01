@@ -2,7 +2,7 @@ import React from "react";
 import DividerHeading from "../components/divider_heading";
 import nate from "../images/nate.jpg";
 import cass from "../images/cass.jpg";
-import mike from "../images/mike.jpg";
+import rebecca from "../images/rebecca.jpg";
 import sam from "../images/sam.jpg";
 
 export default () => {
@@ -36,17 +36,16 @@ export default () => {
         group.
       </p>
 
-      <img className="headshot" src={mike} alt="" />
+      <img className="headshot" src={rebecca} alt="" />
       <p className="bio-text bio-title">
-        <strong>Mike Dudley</strong>
-        <div>Bass Guitar</div>
+        <strong>Rebecca Jonas</strong>
+        <div>Cello</div>
       </p>
       <p className="bio-text">
-        As the latest addition to the band in 2012, Mike is a jack of trades and
-        a master of all of them. Although he plays bass for the group, he is
-        able to fill in as a drummer or mandolin player. Other then laying down
-        a groove you might see him stagediving, smashing guitars, and biting the
-        heads of small animals on stage.
+        Rebecca joined the band back in 2010, after awkwardly introducing herself 
+        to Nate and Cass after seeing them perform at the Mercury Cafe late New 
+        Year's Eve. After taking some time off, she's excited to be back and 
+        figuring out fun and original cello parts with the band.
       </p>
 
       <img className="headshot" src={sam} alt="" />
