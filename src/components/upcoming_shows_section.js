@@ -42,13 +42,13 @@ const shows = [
       when: 'Saturday, July 24th 4pm - 7pm',
       venue: 'Private Event - Denver, CO',
   },
-  // {
-  //   when: 'Saturday, July 11th 5pm - 8pm',
-  //   venue: 'Spirit Hound Distillery',
-  //   venue_url: 'http://www.spirithounds.com/',
-  //   address: '4196 Ute Hwy, Lyons, CO 80540',
-  //   address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8',
-  // },
+  {
+    when: 'Saturday, July 31st 5pm - 8pm',
+    venue: 'Spirit Hound Distillery',
+    venue_url: 'http://www.spirithounds.com/',
+    address: '4196 Ute Hwy, Lyons, CO 80540',
+    address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8',
+  },
   // {
   //     when: 'Tuesday, July 2nd 7pm - 8pm',
   //     venue: 'Private Event - Denver, CO',
@@ -74,13 +74,13 @@ const shows = [
   //     when: 'Sunday, July 28th 7:30pm - 10pm',
   //     venue: 'Wedding Reception- Boulder, CO',
   // },
-  // {
-  //     when: 'Saturday, August 17th 7pm - 10pm',
-  //     venue: 'City Star Brewing',
-  //     venue_url: 'https://citystarbrewing.com/',
-  //     address: '321 Mountain Ave, Berthoud, CO 80513',
-  //     address_url: 'https://goo.gl/maps/AFznYzwm28L2'
-  // },
+  {
+      when: 'Saturday, August 28th 6pm - 8:30pm',
+      venue: 'City Star Brewing',
+      venue_url: 'https://citystarbrewing.com/',
+      address: '321 Mountain Ave, Berthoud, CO 80513',
+      address_url: 'https://goo.gl/maps/AFznYzwm28L2'
+  },
   // {
   //     when: 'Saturday, August 24th 12pm - 3pm',
   //     venue: 'Mile High Flea Market',
