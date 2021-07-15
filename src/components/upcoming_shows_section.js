@@ -49,13 +49,10 @@ const shows = [
     address: '4196 Ute Hwy, Lyons, CO 80540',
     address_url: 'https://goo.gl/maps/tXVnQ3yP7cGfdt6x8',
   },
-  // {
-  //     when: 'Tuesday, July 2nd 7pm - 8pm',
-  //     venue: 'Private Event - Denver, CO',
-  //     // venue_url: 'https://www.theargyle.org/',
-  //     // address: '4115 W 38th Ave, Denver, CO 80212',
-  //     // address_url: 'https://goo.gl/maps/112npp9z67pDNpGG7'
-  // },
+  {
+      when: 'Friday, August 27th 5pm - 7:30pm',
+      venue: 'Private Event - Denver, CO',
+  },
   // {
   //     when: 'Wednesday, July 17th 7pm - 8pm',
   //     venue: 'Littleton Museum - Summer Concert Series',
